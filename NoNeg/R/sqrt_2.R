@@ -8,7 +8,11 @@
 #' @export
 #'
 #' @examples
-#' sqrt.2(4)
+#' \dontrun{sqrt.2(2)
+#' }
+#' \dontrun{sqrt.2(-1)
+#' }
+#'
 sqrt.2 = function(x){
   if ((x) < 0){
     rlang::abort(message = "negative input, NA introduced!",

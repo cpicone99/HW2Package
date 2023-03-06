@@ -8,7 +8,11 @@
 #' @export
 #'
 #' @examples
-#' log.2(1)
+#' \dontrun{log.2(2)
+#' }
+#' \dontrun{log.2(-1)
+#' }
+#'
 log.2 = function(x){
   if ((x) < 0){
     rlang::abort(message="negative input, NA introduced!",x=x)

@@ -16,5 +16,9 @@ An error or a number
 A way to return errors for log of negative numbers instead of NAs
 }
 \examples{
-log.2(1)
+\donttest{log.2(2)
+}
+\donttest{log.2(-1)
+}
+
 }

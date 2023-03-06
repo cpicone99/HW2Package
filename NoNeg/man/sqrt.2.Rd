@@ -16,5 +16,9 @@ An error or a number
 A way to return errors for square root of negative numbers instead of NAs
 }
 \examples{
-sqrt.2(4)
+\donttest{sqrt.2(2)
+}
+\donttest{sqrt.2(-1)
+}
+
 }
